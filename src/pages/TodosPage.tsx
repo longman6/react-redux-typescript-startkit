@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector  } from 'react-redux';
-import { addTodo, toggleIsDone, } from 'store/todoSlicer';
+import { addTodo, toggleIsDone, } from 'store/todoSlice';
 import { RootState } from 'store';
 import TodoList from 'features/todos/TodoList';
 import AddTodoForm from 'features/AddTodoForm';
